@@ -209,6 +209,7 @@ with shared.gradio_root:
                                 example_inpaint_prompts.click(lambda x: x[0], inputs=example_inpaint_prompts, outputs=inpaint_additional_prompt, show_progress=False, queue=False)
 
                             with gr.Column(visible=False) as inpaint_mask_generation_col:
+                                # TO DO: if conditional if inpaint_mask_brush_checkbox is true then brush_color = "#000000" else "#FFFFFF"
                                 inpaint_mask_image = grh.Image(label='Mask Upload', source='upload', type='numpy', tool='sketch', height=500, brush_color="#FFFFFF", mask_opacity=1)
                                 inpaint_mask_model = gr.Dropdown(label='Mask generation model',
                                                                  choices=flags.inpaint_mask_models,
@@ -541,11 +542,12 @@ with shared.gradio_root:
                                                                  'negative value will make white area smaller.'
                                                                  '(default is 0, always process before any mask invert)')
                         inpaint_mask_upload_checkbox = gr.Checkbox(label='Enable Mask Upload', value=False)
+                        inpaint_mask_brush_checkbox = gr.Checkbox(label='Enable erase mask brush', value=False)
                         invert_mask_checkbox = gr.Checkbox(label='Invert Mask', value=False)
 
                         inpaint_ctrls = [debugging_inpaint_preprocessor, inpaint_disable_initial_latent, inpaint_engine,
                                          inpaint_strength, inpaint_respective_field,
-                                         inpaint_mask_upload_checkbox, invert_mask_checkbox, inpaint_erode_or_dilate]
+                                         inpaint_mask_upload_checkbox, inpaint_mask_brush_checkbox, invert_mask_checkbox, inpaint_erode_or_dilate]
 
                         inpaint_mask_upload_checkbox.change(lambda x: [gr.update(visible=x)] * 2,
                                                             inputs=inpaint_mask_upload_checkbox,
