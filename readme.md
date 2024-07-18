@@ -1,4 +1,6 @@
-# Fooocus - mashb1t's 1-Up   Specifically for Windows with Intel GPU's
+# Fooocus - Specifically for Windows with Intel GPU's
+
+mashb1t's 1-Up   
 
 The purpose of this fork is to contribute back to [Fooocus](https://github.com/lllyasviel/Fooocus).
 
