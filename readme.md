@@ -241,7 +241,7 @@ and install them for Intel.
 Next run "Run 2nd.bat", this will install venv.
 Finally run "run.bat".
 
-![image]([https://github.com/lllyasviel/Fooocus/assets/19834515/c49269c4-c274-4893-b368-047c401cc58c](https://github.com/Redtash1/Fooocus-Windows-Intel-GPU-/blob/main/Pics/Fooocus%20Run%20Order.png))
+![image](https://github.com/Redtash1/Fooocus-Windows-Intel-GPU-/blob/main/Pics/Fooocus%20Run%20Order.png)
 
 The first time you launch the software, it will automatically download models:
 
