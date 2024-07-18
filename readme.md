@@ -1,4 +1,4 @@
-# Fooocus - mashb1t's 1-Up Specifically for Intel GPU's
+# Fooocus - mashb1t's 1-Up   Specifically for Windows with Intel GPU's
 
 The purpose of this fork is to contribute back to [Fooocus](https://github.com/lllyasviel/Fooocus).
 
@@ -42,16 +42,6 @@ The purpose of this fork is to contribute back to [Fooocus](https://github.com/l
 ---
 
 ## Feature showcase
-
-### Enhance - Automatic Image Upscaling + Enhancement
-
-Similar to adetailer, but based on dynamic image detection instead of specific mask detection models. All with one click!
-
-See [documentation](https://github.com/mashb1t/Fooocus/discussions/42).
-
-| Original (generated)| Upscale (before) | `#1` Yellow Sundress | `#2` Hands replacement|
-|--------|--------|--------|--------|
-| ![image - 2024-06-23T154659 098](https://github.com/mashb1t/Fooocus/assets/9307310/260e6a0b-5f42-47a3-83fd-fc3f4310d3a7)| ![image - 2024-06-23T155614 010](https://github.com/mashb1t/Fooocus/assets/9307310/09c9d620-08d8-4a3f-b99e-dddf9b653234)| ![image - 2024-06-23T155852 562](https://github.com/mashb1t/Fooocus/assets/9307310/c31b210c-b846-47c2-a3f6-db4e3241401f) | ![image - 2024-06-23T161011 491](https://github.com/mashb1t/Fooocus/assets/9307310/8a5d1ff8-cf60-4cf2-85f7-065cf5ccaf8d)| 
 
 ---
 
