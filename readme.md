@@ -44,8 +44,7 @@ The purpose of this fork is to contribute back to [Fooocus](https://github.com/l
 ---
 
 ## Feature showcase
-
-
+---
 ### https://github.com/lllyasviel/Fooocus/pull/2032 - Automated Mask Generation + Mask Prompting
 
 https://github.com/mashb1t/Fooocus/assets/9307310/b69bf607-128b-48a6-a248-fa2b09218fe7
