@@ -43,7 +43,6 @@ The purpose of this fork is to contribute back to [Fooocus](https://github.com/l
 ~~abc~~ = merged
 
 ---
-
 ## Feature showcase
 ---
 ### https://github.com/lllyasviel/Fooocus/pull/2032 - Automated Mask Generation + Mask Prompting
