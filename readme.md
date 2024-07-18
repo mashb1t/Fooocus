@@ -1,10 +1,6 @@
-# Fooocus - mashb1t's 1-Up Edition
+# Fooocus - mashb1t's 1-Up Specifically for Intel GPU's
 
-The purpose of this fork is to add new features / fix bugs and contribute back to [Fooocus](https://github.com/lllyasviel/Fooocus).
-
-As a collaborator & contributor of the Fooocus repository you can find me in almost every [issue](https://github.com/lllyasviel/Fooocus/issues), [pull request](https://github.com/lllyasviel/Fooocus/pulls), [discussion](https://github.com/lllyasviel/Fooocus/discussions) etc.
-
-Sadly the creator of Fooocus has gone dark multiple times for an extended amount of time, which is why I took matters into my own hands.
+The purpose of this fork is to contribute back to [Fooocus](https://github.com/lllyasviel/Fooocus).
 
 ![BillsUghGIF](https://github.com/mashb1t/Fooocus/assets/9307310/78c04e06-8ef0-4224-9c25-8f1bee9861de)
 
