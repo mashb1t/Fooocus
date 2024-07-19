@@ -235,7 +235,7 @@ You can directly download Fooocus with:
 
 **[>>> Click here to download <<<](https://github.com/mashb1t/Fooocus/releases/download/v2.6.0/Fooocus_win64_2-6-0.7z)**
 
-After you download the file, please uncompress it and then run the "Run 1st.bat", this will uninstall torch, torchvision, torchaudio, torchtext, functorch, xformers for Nvidiaand install them for Intel. 
+After you download the file, please uncompress it and then run the "Run 1st.bat", this will uninstall torch, torchvision, torchaudio, torchtext, functorch, xformers for Nvidia and install them for Intel. 
 
 Next run "Run 2nd.bat", this will install venv. 
 
@@ -247,8 +247,6 @@ The first time you launch the software, it will automatically download models:
 
 1. It will download [default models](#models) to the folder "Fooocus\models\checkpoints" given different presets. You can download them in advance if you do not want automatic download.
 2. Note that if you use inpaint, at the first time you inpaint an image, it will download [Fooocus's own inpaint control model from here](https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch) as the file "Fooocus\models\inpaint\inpaint_v26.fooocus.patch" (the size of this file is 1.28GB).
-
-After Fooocus 2.1.60, you will also have `run_anime.bat` and `run_realistic.bat`. They are different model presets (and require different models, but they will be automatically downloaded). [Check here for more details](https://github.com/lllyasviel/Fooocus/discussions/679).
 
 After Fooocus 2.3.0 you can also switch presets directly in the browser. Keep in mind to add these arguments if you want to change the default behavior:
 * Use `--disable-preset-selection` to disable preset selection in the browser.
